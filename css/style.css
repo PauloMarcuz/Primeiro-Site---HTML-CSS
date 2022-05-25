@@ -1,0 +1,492 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.conteiner{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+/* fim das tagas auxiliares */
+
+/* inicio da header */
+
+header{
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/banner.jpg);
+}
+
+.header1{
+	border-bottom: 2px solid white;
+}
+
+.header1 .logo{
+	float: left;
+	padding: 10px;
+	color: white;
+}
+
+.header1 .menu-mobile ul li{
+	float: left;
+	display: none;
+	}
+
+.header1 .menu-mobile .icon{
+	cursor: pointer;
+	float: left;
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/menu.png);
+}
+
+.header1 .menu-desktop{
+	float: right;
+}
+
+.header1 .menu-mobile ul{
+	position: absolute;
+	background-color: white;
+	display: block;
+	top: 55px;
+	width: 96%;
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header1 .menu-mobile ul li{
+	padding: 15px;
+	text-align: center;
+}
+
+.header1 .menu-mobile ul li a{
+	text-align: center;
+	padding: 10px 0;
+	color: black;
+	text-decoration: none;
+}
+
+.header1 .menu-mobile:hover li{
+	display: block;
+}
+
+.header1 .menu-mobile ul li:hover{
+	background-color: rgb(230, 230, 230);
+}
+
+.header1 .menu-desktop ul li{
+	float: left;
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.header1 .menu-desktop a{
+	margin: 2px;
+	padding: 20px 15px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.header1 .menu-desktop a:hover{
+	color: #0666CA;
+	border-bottom: 2px solid #0666CA;
+}
+
+.header1 .menu-mobile{
+	display: none;
+}
+
+/* fim da header1 */
+
+/* inicio da chamada1 */
+
+.chamada1{
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 150px;
+}
+
+.chamada1 h2{
+	color: white;
+	font-size: 36px;
+}
+
+.chamada1 p{
+	font-size: 16px;
+	color: white;
+	margin: 30px 0px;
+}
+
+.chamada1 input[type=submit]{
+	background-color: #0666CA;
+	border-radius: 50px;
+	color: white;
+	padding: 10px;
+	border: 1px solid #0666CA;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.chamada1 input[type=submit]:hover{
+	background-color: #035FCD;
+	border: 1px solid #035FCD;
+}
+
+/* fim da chamada1 */
+
+/* inicio da sessao1 */
+
+.sessao1{
+	background-color: #0666CA;
+	width: 100%;
+	height: 100%;
+}
+
+.sessao1 .title{
+	float: left;
+	text-align: center;
+	width: 250px;
+	height: 100%;
+	padding: 60px;
+	padding-top: 130px;
+}
+
+.sessao1 .title h1{
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.sessao1 .esquerda{
+	text-align: center;
+	float: left;
+	height: 100%;
+	width: 450px;
+}
+
+.sessao1 .direita{
+	text-align: center;
+	float: right;
+	height: 100%;
+	width: 450px;
+}
+
+.sessao1 .esquerda .parte1{
+	padding: 10%;
+}
+
+.sessao1 .esquerda .parte2{
+	padding: 10%;
+}
+
+.sessao1 .direita .parte3{
+	padding: 10%;
+}
+
+.sessao1 .direita .parte4{
+	padding: 10%;
+}
+
+.sessao1 .esquerda .parte1 .icon1{
+	filter: invert(100%);
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../img/gotas.png);
+}
+
+.sessao1 .esquerda .parte2 .icon2{
+	filter: invert(100%);
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../img/responsivo.png);
+}
+.sessao1 .direita .parte3 .icon3{
+	filter: invert(100%);
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../img/ancora.png);
+}
+.sessao1 .direita .parte4 .icon4{
+	filter: invert(100%);
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(../img/celular.png);
+}
+
+.sessao1 .esquerda h2{
+	padding-bottom: 10px;
+	color: white;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.sessao1 .esquerda p{
+	line-height: 25px;
+	font-size: 15px;
+	color: white;
+	font-weight: normal;
+}
+
+.sessao1 .direita h2{
+	padding-bottom: 10px;
+	color: white;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.sessao1 .direita p{
+	line-height: 25px;
+	font-size: 15px;
+	color: white;
+	font-weight: normal;
+}
+
+/* fim da sessao1 */
+
+/* inicio da sessao2 */
+
+.sessao2{
+	width: 100%;
+}
+
+.sessao2 .parte1{
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/2.jpg);
+	width: 50%;
+	height: 500px;
+	float: left;
+	color: white;
+}
+
+.sessao2 .parte1 h2{
+	padding-top: 130px;
+}
+
+.sessao2 .parte1 p{
+	padding: 30px;
+}
+
+.sessao2 .parte1 input[type=submit]{
+	cursor: pointer;
+	padding: 10px;
+	border: 2px solid white;
+	color: white;
+	border-radius: 50px;
+	background-color: rgba(110, 110, 110, 0.0);
+}
+
+.sessao2 .parte1 input[type=submit]:hover{
+	background-color: rgba(110, 110, 110, 0.3);
+}
+
+.sessao2 .parte2 .banner{
+	float: right;
+	width: 50%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/1.jpg);
+}
+
+/* fim da sessao2 */
+
+/* inicio do footer */
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #0666CA;
+}
+
+footer .left{
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+	float: left;
+	margin: 0 auto;
+}
+
+footer .right{
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 50px;
+	text-align: center;
+	float: right;
+}
+
+footer .right .insta{
+	cursor: pointer;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/instagram.png);
+}
+
+footer .right .face{
+	cursor: pointer;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/facebook.png);
+}
+
+footer .right .twitter{
+	cursor: pointer;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/twitter.png);
+}
+
+footer .right .center{
+	float: right;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 876px){
+	header{
+		width: 100%;
+		height: 500px;
+	}
+
+	.header1{
+		padding: 0px 2%;
+	}
+
+	.header1 .logo{
+		float: right;
+	}
+
+	.header1 .menu-desktop{
+		display: none;
+	}
+
+	.header1 .menu-mobile{
+		display: block;
+	}
+
+	.chamada1{
+		padding: 60px;
+		text-align: center;
+	}
+
+	.sessao1{
+		height: 1100px;
+	}
+
+	.sessao1 .title{
+		padding: 20px;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.sessao1 .esquerda{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.sessao1 .direita{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.sessao1 .esquerda .parte1{
+		padding: 15px 2%;
+	}
+
+	.sessao1 .esquerda .parte2{
+		padding: 15px 2%;
+	}
+
+	.sessao1 .direita .parte3{
+		padding: 15px 2%;
+	}
+
+	.sessao1 .direita .parte4{
+		padding: 15px 2%;
+	}
+
+	.sessao2 .parte1{
+		width: 100%;
+	}
+
+	.sessao2 .parte2 .banner{
+		width: 100%;
+	}
+
+	footer{
+		height: 250px;
+	}
+
+	footer .left{
+		text-align: center;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	footer .right{
+		text-align: center;
+		padding: 0px;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+}
